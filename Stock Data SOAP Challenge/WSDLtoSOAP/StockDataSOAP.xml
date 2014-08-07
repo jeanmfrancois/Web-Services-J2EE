@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<env:Envelope xmlns:env=http://w3.org/2003/05/soap-envelope>
+	<env:Header>
+		<m:getPrice xmlns:m="http://Stock_Data_Challenge/StockDataService/getPriceRequest" env:role=http://w3.org/2003/05/soap-envelope/next env:mustUnderstand="true"/>
+		<m:updatePrice xmlns:m="http://Stock_Data_Challenge/StockDataService/updatePriceRequest" env:role=http://w3.org/2003/05/soap-envelope/ultimateReceiver env:mustUnderstand="false"/>
+		<m:addStock xmlns:m="http://Stock_Data_Challenge/StockDataService/addStockRequest" env:role=http://w3.org/2003/05/soap-envelope/none env:mustUnderstand="false"/>
+	</env:Header>
+	<env:Body>
+		[Body Here]
+	</env:Body>
+</env:Envelope>
